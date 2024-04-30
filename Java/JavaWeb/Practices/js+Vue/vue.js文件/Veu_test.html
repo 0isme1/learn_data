@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue-快速入门</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+
+    <div id="app">
+        <input type="text" v-model="message">
+        {{message}}
+        <br>
+        <input type="text" value=s1>
+    
+    </div>
+    
+    <script>
+        //
+        new new Vue({
+            el:"#app", //Vue接管的区域
+            data:{
+                message:"hello vue"
+            }
+        })
+
+        var sss=function(){
+            alert("test");
+            return 3;
+        }
+        var s1=sss();
+    </script>
+</body>
+</html>
