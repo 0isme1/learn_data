@@ -9,8 +9,8 @@
 >     
 > //静态库的使用
 >     //链接使用  fileName 不需要后缀
->     g++ -c fileName -L filePosition -l filename -o targetName
->     g++ -o targetName fileName -L filePosition -l filename
+>     g++ -c [fileName] -L [filePosition] -l [filename] -o [targetName]
+>     g++ -o [targetName] [fileName] -L [filePosition] -l [filename]
 >  
 > ```
 
